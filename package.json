@@ -1,0 +1,14 @@
+{
+  "name": "ephemera-backend",
+  "version": "1.0.0",
+  "description": "Letters to your future self — cosmic time capsule API",
+  "main": "ephemera-server.js",
+  "scripts": {
+    "start": "node ephemera-server.js",
+    "dev": "nodemon ephemera-server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
